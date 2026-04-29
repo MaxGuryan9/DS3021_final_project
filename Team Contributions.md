@@ -43,6 +43,7 @@ unexplained variance, the observational nature of the data, and the model's
 reduced reliability for lower-performing students.
 
 **Max Guryan**
+
 Max Guryan served at the Data Engineer, setting up the repo, creating the venv and installing the required packages needed to run the notebooks in the environment. Max also did the EDA, helping us understand what the dataset looked like, what needed to be adjusted, what was potentially important, and what might not be needed. This allowed the rest of the group to be able to work with efficiently and effectly with a clean dataset. Max was also on the red team and final review committe with Griff. We identified syntax, structural, and clarical errors, ensuring that the project was as polished as can be. Max also helped Will with the beginning of the methods process, creating the baseline structure for the pipeline, and assisting with structural and procedural decisions. However, most of the methods was done by Will. 
 
 **Will Gurley**
