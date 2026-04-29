@@ -49,7 +49,7 @@ test-day circumstances, and natural smarts are absent from the dataset. A more
 complete model would need richer data for a stronger conclusion.
 
 
-**2. Correlation is not causation.** This is onlu observational data. We can say that 
+**2. Correlation is not causation.** This is only observational data. We can say that 
 studying more hours is *associated* with higher scores, but we cannot claim that 
 studying more *causes* higher scores. A student who is naturally more motivated 
 may both study more and score higher, and motivation itself is an underlying 
@@ -70,6 +70,8 @@ terms improved predictive performance, they create interaction features (like
 Hours_Studied with Attendance) whose individual meanings are harder to explain. 
 A simpler linear model would be more interpretable if the goal were to give 
 direct guidance to the actual students or advisors.
+
+**5. Low Categorical Impact**: While including the categorical features does increase the overall strength of our model, the model struggles to make conclusions about academic performance soley based on the categorical features. Most of this can be explained by our choice of a linear regression model, which is much better at interacting with numerical features compared to categorical ones. If we had more time, it would be smart to explore a more complex decision-tree model that is better at interacting with a combination of both numerical and categorical features.
 
 ## Final Thoughts
 
